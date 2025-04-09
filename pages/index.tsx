@@ -24,8 +24,8 @@ export default function Home() {
       >
         <button onClick={handleStart} className="focus:outline-none">
           <img
-            src="/start.png"
-            alt="신혼여행 진단 시작"
+            src="/start-v2.png"
+            alt="시작 버튼"
             className="w-[196px] hover:scale-105 transition-transform duration-300"
           />
         </button>
