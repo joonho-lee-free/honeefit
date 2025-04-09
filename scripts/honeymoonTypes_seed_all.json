@@ -1,0 +1,119 @@
+[
+  {
+    "id": "adventure_city_night",
+    "title": "🌃 도심 속 모험 여행",
+    "description": "야경도 즐기고 모험도 즐기는 액티브 커플을 위한 여행!",
+    "recommendedCities": [
+      {
+        "name": "홍콩",
+        "image": "https://example.com/hongkong.jpg",
+        "summary": "화려한 도시 야경과 피크트램 모험",
+        "productId": "hongkong_001"
+      }
+    ]
+  },
+  {
+    "id": "adventure_nature",
+    "title": "🌲 자연 속 모험 여행",
+    "description": "자연에서 즐기는 짜릿한 액티비티와 모험!",
+    "recommendedCities": [
+      {
+        "name": "퀸스타운",
+        "image": "https://example.com/queenstown.jpg",
+        "summary": "번지점프와 트레킹의 천국",
+        "productId": "queenstown_001"
+      }
+    ]
+  },
+  {
+    "id": "healing_sunset_beach",
+    "title": "🌅 해질녘 바다와 힐링",
+    "description": "조용한 해변과 석양 아래 휴식을 즐기는 여행",
+    "recommendedCities": [
+      {
+        "name": "발리",
+        "image": "https://example.com/bali.jpg",
+        "summary": "느긋한 시간과 석양의 해변",
+        "productId": "bali_001"
+      }
+    ]
+  },
+  {
+    "id": "luxury_relax",
+    "title": "💎 럭셔리 휴양 여행",
+    "description": "고급 리조트와 프라이빗한 휴식을 원하는 커플에게",
+    "recommendedCities": [
+      {
+        "name": "몰디브",
+        "image": "https://example.com/maldives.jpg",
+        "summary": "수상 풀빌라와 프라이빗한 시간",
+        "productId": "maldives_001"
+      }
+    ]
+  },
+  {
+    "id": "romantic_relax",
+    "title": "💑 로맨틱 감성 여행",
+    "description": "둘만의 감성 넘치는 시간을 위한 여행지",
+    "recommendedCities": [
+      {
+        "name": "파리",
+        "image": "https://example.com/paris.jpg",
+        "summary": "센강 유람선과 에펠탑 야경",
+        "productId": "paris_001"
+      }
+    ]
+  },
+  {
+    "id": "snap_emotion",
+    "title": "📸 인생샷 감성 여행",
+    "description": "사진으로 추억을 남기고 싶은 커플을 위한 감성 여행지",
+    "recommendedCities": [
+      {
+        "name": "산토리니",
+        "image": "https://example.com/santorini.jpg",
+        "summary": "하얀 지붕과 파란 바다의 환상적인 뷰",
+        "productId": "santorini_001"
+      }
+    ]
+  },
+  {
+    "id": "sports_entertainment",
+    "title": "⚽ 스포츠·공연 관람 여행",
+    "description": "손흥민 경기, 콘서트, 메이저리그까지 관람하는 투어!",
+    "recommendedCities": [
+      {
+        "name": "런던",
+        "image": "https://example.com/london.jpg",
+        "summary": "토트넘 경기와 프리미어리그 열기",
+        "productId": "london_001"
+      }
+    ]
+  },
+  {
+    "id": "urban_shopping",
+    "title": "🛍 도시 쇼핑 여행",
+    "description": "핫플과 트렌디한 매장을 둘러보는 도시 중심 여행",
+    "recommendedCities": [
+      {
+        "name": "뉴욕",
+        "image": "https://example.com/nyc.jpg",
+        "summary": "브루클린부터 소호까지 쇼핑의 천국",
+        "productId": "nyc_001"
+      }
+    ]
+  },
+  {
+    "id": "custom_trip",
+    "title": "🎨 나만의 커스텀 허니문",
+    "description": "세상에 단 하나뿐인 당신만의 여행을 설계해보세요.",
+    "recommendedCities": [
+      {
+        "name": "당신의 상상 속 여행지",
+        "image": "https://example.com/custom-dream.jpg",
+        "summary": "직접 구성한 일정과 스타일로 만드는 특별한 허니문",
+        "productId": "custom_001"
+      }
+    ]
+  }
+]
