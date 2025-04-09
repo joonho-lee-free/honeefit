@@ -13,7 +13,7 @@ export default function Home() {
       className="relative w-full h-screen bg-cover bg-center"
       style={{ backgroundImage: 'url("/MAIN.jpg")' }}
     >
-      {/* 리터치된 start.png 버튼 (에펠탑 아래 배치) */}
+      {/* 최종 리터치된 start.png 버튼 - 에펠탑 아래 */}
       <div
         className="absolute"
         style={{
