@@ -13,17 +13,20 @@ export default function Home() {
       className="relative w-full h-screen bg-cover bg-center"
       style={{ backgroundImage: 'url("/MAIN.jpg")' }}
     >
-      {/* START 버튼 이미지: 위치/크기 정확히 조정 */}
-      <div className="absolute" style={{
-        bottom: "100px",
-        left: "50%",
-        transform: "translateX(-50%)"
-      }}>
+      {/* 위에 올릴 버튼 이미지 */}
+      <div
+        className="absolute"
+        style={{
+          bottom: "90px", // 버튼 위치 조정
+          left: "50%",
+          transform: "translateX(-50%)"
+        }}
+      >
         <button onClick={handleStart} className="focus:outline-none">
           <img
-            src="/START.png"
-            alt="START"
-            className="w-[240px] hover:scale-105 transition-transform duration-300"
+            src="/start.jpg"
+            alt="시작 버튼"
+            className="w-[180px] hover:scale-105 transition-transform duration-300"
           />
         </button>
       </div>
