@@ -13,19 +13,19 @@ export default function Home() {
       className="relative w-full h-screen bg-cover bg-center"
       style={{ backgroundImage: 'url("/MAIN.jpg")' }}
     >
-      {/* 위에 올릴 버튼 이미지 */}
+      {/* START 버튼: 에펠탑 바로 아래 */}
       <div
         className="absolute"
         style={{
-          bottom: "90px", // 버튼 위치 조정
+          bottom: "160px", // 에펠탑 기준 위치
           left: "50%",
           transform: "translateX(-50%)"
         }}
       >
         <button onClick={handleStart} className="focus:outline-none">
           <img
-            src="/start.jpg"
-            alt="시작 버튼"
+            src="/start.png"
+            alt="신혼여행 진단 시작"
             className="w-[180px] hover:scale-105 transition-transform duration-300"
           />
         </button>
