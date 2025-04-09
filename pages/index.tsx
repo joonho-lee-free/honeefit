@@ -1,3 +1,4 @@
+// ✅ 파일명: pages/index.tsx
 import { useRouter } from "next/router";
 
 export default function Home() {
@@ -12,12 +13,14 @@ export default function Home() {
       className="relative w-full h-screen bg-cover bg-center"
       style={{ backgroundImage: 'url("/MAIN.jpg")' }}
     >
-      <div className="absolute bottom-36 left-1/2 transform -translate-x-1/2">
-        <button
-          onClick={handleStartQuiz}
-          className="flex items-center bg-white text-pink-600 font-semibold text-sm px-6 py-3 rounded-full shadow-md hover:bg-pink-50 transition"
-        >
-          <span className="mr-2">🔍</span> MBTI 유형별 신혼여행진단기
+      {/* START 버튼 이미지 */}
+      <div className="absolute bottom-28 left-1/2 transform -translate-x-1/2">
+        <button onClick={handleStartQuiz} className="focus:outline-none">
+          <img
+            src="/START.png"
+            alt="MBTI 유형별 신혼여행진단기"
+            className="w-60 sm:w-72 hover:scale-105 transition-transform duration-300"
+          />
         </button>
       </div>
     </div>
