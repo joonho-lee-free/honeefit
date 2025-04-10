@@ -9,7 +9,7 @@ export default function Home() {
 
   return (
     <div className="flex flex-col items-center justify-center w-full h-screen bg-white text-center text-gray-800">
-      <h1 className="text-2xl font-medium mb-2">기회는 단한번!</h1>
+      <h1 className="text-2xl font-medium mb-2">기회는 단 한 번 !</h1>
       <h2 className="text-4xl font-bold text-blue-600 mb-6">내게 꼭 맞는 신혼여행지</h2>
       <button
         onClick={goToQuiz}
