@@ -1,4 +1,4 @@
-// ✅ 파일명: pages/index.tsx
+// ✅ 파일명: pages/index.tsx (최초 초기화용)
 import { useRouter } from "next/router";
 
 export default function Home() {
@@ -25,7 +25,7 @@ export default function Home() {
           <img
             src="/start.png"
             alt="신혼여행 진단 시작"
-            className="w-[196px] hover:scale-105 transition-transform duration-300"
+            className="w-[196px]"
           />
         </button>
       </div>
