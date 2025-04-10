@@ -1,9 +1,10 @@
-// pages/quiz.tsx (단계별 퀴즈 버전)
+// pages/quiz.tsx
 import { useState } from "react";
 import { useRouter } from "next/router";
 import { addDoc, collection, Timestamp } from "firebase/firestore";
 import { db } from "../firebase";
-import CommonButton from '@/components/CommonButton'; // 공통 버튼 불러오기
+import CommonButton from "@/components/CommonButton"; // 공통 버튼 불러오기
+import { FaRegLightbulb } from "react-icons/fa"; // 아이콘 추가
 
 const questions = [
   {
@@ -161,6 +162,7 @@ export default function Quiz() {
         <CommonButton
           text={current === questions.length - 1 ? "결과 보기 ✨" : "다음 →"}
           onClick={handleNext}
+          icon={<FaRegLightbulb />} // 아이콘 추가
         />
       </div>
     </div>

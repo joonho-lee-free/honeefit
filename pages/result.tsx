@@ -4,6 +4,7 @@ import { useRouter } from "next/router";
 import { doc, getDoc } from "firebase/firestore";
 import { db } from "../firebase";
 import CommonButton from "@/components/CommonButton"; // 공통 버튼 불러오기
+import { FaRegLightbulb } from "react-icons/fa"; // 아이콘 추가
 
 interface City {
   name: string;
@@ -54,6 +55,7 @@ export default function Result() {
               <CommonButton
                 text="일정 보기 🗓"
                 onClick={() => router.push(`/product?id=${city.productId}`)}
+                icon={<FaRegLightbulb />} // 아이콘 추가
               />
             </div>
           </div>
