@@ -1,7 +1,9 @@
+// pages/result.tsx
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import { doc, getDoc } from "firebase/firestore";
 import { db } from "../firebase";
+import CommonButton from "@/components/CommonButton"; // 공통 버튼 컴포넌트 불러오기
 
 interface City {
   name: string;
@@ -49,12 +51,10 @@ export default function Result() {
             <div className="p-4">
               <h3 className="text-xl font-bold text-pink-600 mb-2">{city.name}</h3>
               <p className="text-gray-700 mb-4">{city.summary}</p>
-              <button
+              <CommonButton
+                text="일정 보기 🗓"
                 onClick={() => router.push(`/product?id=${city.productId}`)}
-                className="px-4 py-2 bg-pink-500 text-white rounded-full hover:bg-pink-600 transition"
-              >
-                일정 보기 🗓
-              </button>
+              />
             </div>
           </div>
         ))}
