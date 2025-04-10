@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import { doc, getDoc } from "firebase/firestore";
 import { db } from "../firebase";
-import CommonButton from "@/components/CommonButton"; // 공통 버튼 컴포넌트 불러오기
+import CommonButton from "@/components/CommonButton"; // 공통 버튼 불러오기
 
 interface City {
   name: string;
