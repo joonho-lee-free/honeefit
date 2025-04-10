@@ -9,8 +9,8 @@ export default function Home() {
 
   return (
     <div className="flex flex-col items-center justify-center w-full h-screen bg-white text-center text-gray-800">
-      <h1 className="text-2xl font-medium mb-2">Discover Any Place In The</h1>
-      <h2 className="text-4xl font-bold text-blue-600 mb-6">WORLD</h2>
+      <h1 className="text-2xl font-medium mb-2">기회는 단한번!</h1>
+      <h2 className="text-4xl font-bold text-blue-600 mb-6">내게 꼭 맞는 신혼여행지</h2>
       <button
         onClick={goToQuiz}
         className="text-white bg-blue-500 px-6 py-3 rounded-full hover:bg-blue-600 transition"
